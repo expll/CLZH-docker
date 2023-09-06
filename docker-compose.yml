@@ -1,0 +1,7 @@
+services:
+  golang:
+    build:
+      context: ./clzh-go
+      dockerfile: Dockerfile
+    ports:
+      - 8080:8080
